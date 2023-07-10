@@ -2,7 +2,7 @@
 
 ## Description
 
-A simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This project is a Node.js command-line application that allows users to generate a logo and save it as an SVG file. The application will prompt the user to select a color, shape, and provide text for the logo. The SVG logo created based on user inputs is then saved to an SVG file.
 
 ## Table of Contents
 
@@ -44,16 +44,18 @@ SO THAT I don't have to pay a graphic designer
 
 ## Mock Up
 
-![Mock up of the website](./assets/images/Screenshot%202023-05-30%20151412.png)
+![Mock up of the website](./Screenshot%202023-07-10%20190229.png)
+![Mock up of the website](./Screenshot%202023-07-10%20190522.png)
+![Mock up of the website](./logo-e.png)
 
 ## Credits
 
 - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
-- https://getbootstrap.com/
-- https://jquery.com/
+- https://jestjs.io/
+- https://developer.mozilla.org/en-US/play
 - https://www.w3schools.com/
-- http://meyerweb.com/eric/tools/css/reset/
-- https://github.com/necolas/normalize.css
+- https://www.npmjs.com/package/babel-jest
+- https://jestjs.io/docs/mock-functions
 - https://courses.bootcampspot.com/ (Challenge description)
 - https://www.youtube.com/@code
 - https://www.youtube.com/@Fireship
