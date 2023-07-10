@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "object-oriented-programming-challenge-svg-logo-maker",
   "version": "1.0.0",
   "description": "Module 10 Challenge: Object-oriented Programming Challenge: SVG Logo Maker",
