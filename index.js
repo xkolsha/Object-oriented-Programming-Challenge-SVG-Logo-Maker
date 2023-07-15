@@ -15,6 +15,11 @@ inquirer
       name: "color",
       message: "Enter a color for the shape:",
     },
+    {
+      type: "input",
+      name: "text",
+      message: "Enter the text for your logo:",
+    },
   ])
   .then((answers) => {
     // Create the appropriate shape based on the user's choice
@@ -32,9 +37,8 @@ inquirer
     }
 
     // Generate the SVG string
-    const svgString = `<svg>${shape.render()}</svg>`;
-    console.log(svgString);
+    const svg = shape.render().replace("SVG_TEXT", answers.text);
 
     // Write the SVG string to a file
-    fs.writeFileSync("examples/logo.svg", svgString);
+    fs.writeFileSync("examples/logo.svg", svg);
   });

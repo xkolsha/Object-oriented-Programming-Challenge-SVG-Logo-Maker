@@ -1,1 +1,1 @@
-<svg><svg viewBox="0 0 300 300"><rect x="50" y="50" width="200" height="200" fill="blue"></rect><text x="150" y="150" fill="white" font-size="1.6rem" text-anchor="middle">Square</text></svg></svg>
+<svg viewBox="0 0 300 300"><polygon points="100,150 150,50 200,150" fill="blue"></polygon><text x="150" y="150" fill="white" font-size="1.6rem" text-anchor="middle">Suka</text></svg>
